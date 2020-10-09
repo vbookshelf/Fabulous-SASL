@@ -1,0 +1,205 @@
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	/*background-color: white;*/
+}
+
+.large-text {
+	font-size: 50px;
+}
+
+.set-size {
+	
+	font-size: 20px;
+}
+
+
+.header-style {
+	/*height: 50px;*/
+	background-color:  #303030;
+	/*background: linear-gradient(#49708f, #293f50);*/
+	/*background: #293f50;*/
+}
+
+
+.header2 {
+	display: none;
+}
+
+.set-display1 {
+	display: inline;
+}
+
+.radius-border1 {
+	border-radius: 0 0 10px 10px;
+}
+
+.radius-border {
+	border-radius: 10px 10px 0 0;
+}
+
+
+.add-margin {
+	margin-bottom: 20px;
+}
+
+.add-margin1 {
+	margin-bottom: 60px;
+}
+
+.add-padding {
+	padding-bottom: 30px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+.hide {
+	display: none;
+}
+
+
+label {
+	color: black;
+}
+
+input {
+	font-size: 20px;
+	font-family: "Oxygen", sans-serif;
+}
+
+
+.space-letters {
+	letter-spacing: .05em;
+}
+
+
+
+/*
+----------------------------------------------
+CLASSES THAT WILL BE CHANGED BY MEDIA QUERIES
+----------------------------------------------
+*/
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+  max-width: 700px;
+}
+
+.add-padding2 {
+	padding-bottom: 200px;
+}
+
+
+.form-width {
+	max-width: 80%;
+}
+
+
+/*
+-----------------
+MEDIA QUERIES
+-----------------
+*/
+
+@media only screen and (min-device-width: 1200px) {
+/* Devices that are Laptops and Desktops */
+
+
+
+
+
+}/*Close Media Query*/
+
+@media only screen and (max-width: 480px) {
+/*Cellphone Screens*/
+
+/*
+body {
+	background-color: #fafafa;
+}
+*/
+
+.add-margin {
+	margin-bottom: 0;
+}
+
+.add-margin1 {
+	margin-bottom: 30px;
+}
+
+.add-padding2 {
+	padding-bottom: 80px;
+}
+
+.header1 {
+	display: none;
+}
+
+.header2 {
+	display: none;
+}
+
+footer {
+	display: none;
+}
+
+ul {
+	display: none;
+}
+
+
+.form-width {
+	max-width: 100%;
+}
+
+
+} /*Close Media Query*/
+
+
+@media only all and (max-width: 480px) and (orientation: portrait) {
+/*Cellphones in portrait*/
+
+video {
+  max-width: 100%;
+}
+
+.add-margin1 {
+	margin-bottom: 30px;
+}
+
+.header2 {
+	display: block;
+}
+
+} /*Close Media Query*/
+
+
+@media only all and (max-width: 480px) and (orientation: landscape) {
+/*Cellphones in Landscape*/
+
+video {
+  max-width: 80%;
+}
+
+.add-margin {
+	margin-bottom: 30px;
+}
+
+} /*Close Media Query*/
+
+
+
+@media only all and (min-width: 520px) and (orientation: landscape) {
+/*Tablets in landscape*/
+
+.form-width {
+	max-width: 60%;
+}
+
+
+} /*Close Media Query*/
