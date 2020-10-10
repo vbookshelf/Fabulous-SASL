@@ -9,7 +9,7 @@ Live Web App: https://mysasl.com/
 
 <br>
 
-It's often hard for students to recall what the sign is for a particular word. Because many hearing students actually don't know anyone in the deaf community they don't have anyone who can help them outside class. A few years ago we created this web app to help students practice at home. It contains more than 1500 videos of the signs taught in the two levels that make up the Rhema church sign language course.
+It's often hard for students to recall what the sign is for a particular word. Because many hearing students actually don't know anyone in the deaf community they don't have anyone who can help them outside class. A few years ago we created this web app to help students practice at home. It contains more than 1500 videos of the signs taught in the two levels that make up the Rhema Church sign language course.
 
 There are many variations of sign language in different parts of the world. I've released the code so that it can be used as a template to help others create similar sign language learning tools. 
 
