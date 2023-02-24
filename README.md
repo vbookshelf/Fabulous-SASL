@@ -1,5 +1,5 @@
 # Fabulous-SASL
-A simple web based video dictionary to help students practice South African Sign Language (SASL).
+A simple web based video dictionary to help students practice South African Sign Language (SASL). This app also enables basic communication between deaf and hearing people.
 
 Live Web App: https://mysasl.com/
 
